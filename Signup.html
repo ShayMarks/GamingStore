@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+  <style>
+    /* CSS styling goes here */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(back2.jpg);
+    }
+    
+    /* the container that holds the registration form */
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* the main heading */
+    h1 {
+      text-align: center;
+      font-family: papyrus;
+      color: blue;
+      font-size: 40px;
+    }
+    
+    /* the secondary heading */
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* labels */
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    /* text input, email input, and password input fields */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    
+    /* checkbox input fields */
+    input[type="checkbox"] {
+      margin-top: 5px;
+    }
+    
+    /* the button container */
+    .btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    /* the buttons */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: blue;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    /* button hover effect */
+    .btn:hover {
+      background-color: rgb(255, 255, 255);
+      color: blue;
+      box-shadow: 0 0 20px blue;
+      border: 1px solid blue;
+    }
+    
+    /* the login section */
+    .login {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18PX;
+      font-weight: 700;
+    }
+    
+    /* the date input field */
+    input[type=date] {
+      height: 35px;
+      margin: 0 auto;
+      width: 50%;
+      font-family: arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: #97c1da;
+      outline: none;
+      border: 0;
+      border-radius: 75% 25%;
+      padding: 0 50px;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shay Gaming Store</h1>
+    <h2>Sign up</h2>
+    <form action="submit-form.php" method="post">
+
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required>
+      
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required>
+      
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required value="" min="1900-01-01" max="2020-12-31"> 
+      
+      <label>
+        <input type="checkbox" name="terms" required> I agree to the <a href="terms.html">terms of use</a>
+      </label>
+      
+      <label>
+        <input type="checkbox" name="promotional" value="yes"> Send me promotional messages by email
+      </label>
+      
+      <div class="btn-container">
+        <input type="submit" class="btn" value="Submit">
+        <input type="reset" class="btn" value="Reset">
+        <a href="html.html" class="btn">Return to Site</a>
+      </div>
+
+      <div class="login">You already have an existing account: <br> <a href="login.html">click here to log in</a></div>
+
+    </form>
+  </div>
+</body>
+</html>

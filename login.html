@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    /* CSS styling goes here */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(back2.jpg);
+    }
+    
+    /* Styling for the container that holds the login form */
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Styling for the main heading */
+    h1 {
+      text-align: center;
+      font-family: papyrus;
+      color: blue;
+      font-size: 40px;
+    }
+    
+    /* Styling for the secondary heading */
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Styling for labels */
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    /* Styling for text input and password input fields */
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    
+    /* Styling for checkbox input fields */
+    input[type="checkbox"] {
+      margin-top: 5px;
+    }
+    
+    /* Styling for the button container */
+    .btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    /* Styling for the buttons */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: blue;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    /* Styling for button hover effect */
+    .btn:hover {
+      background-color: rgb(255, 255, 255);
+      color: blue;
+      box-shadow: 0 0 20px rgb(0, 0, 248);
+      border: 1px solid blue;
+    }
+
+    /* Styling for the login section */
+    .login {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18PX;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Shay Gamingsssssss Store</h1>
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label>
+        <input type="checkbox" name="remember"> Remember me
+      </label>
+      
+      <div class="btn-container">
+        <input href="html.html" type="submit" class="btn" value="Connect">
+        <input type="reset" class="btn" value="Reset">
+        <a href="html.html" class="btn">Return to Site</a>
+      </div>
+    </form>
+    <div class="login">You do not have an existing account: <br> <a href="Signup.html">click here to Sign-Up</a></div>
+  </div>
+</body>
+</html>

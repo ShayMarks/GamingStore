@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <style>
+    /* CSS styling goes here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      background-image:url(back2.jpg);
+    }
+    
+    /* Styling for the container that holds the contact form */
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Styling for the main heading */
+    h1 {
+      text-align: center;
+      font-family: papyrus;
+      color: blue;
+      font-size: 40px;
+    }
+
+    /* Styling for the secondary heading */
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Styling for labels */
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    /* Styling for text input, email input, and textarea fields */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    
+    /* Styling for the button container */
+    .btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    /* Styling for the button */
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    /* Styling for button hover effect */
+    .btn:hover {
+      background-color: #207a24;
+    }
+    
+    /* Styling for the social media icons */
+    .social-media {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .social-media a {
+      display: inline-block;
+      margin: 0 5px;
+      font-size: 30px;
+      color: #696969;
+      transition:  1s;
+    }
+    
+    /* Styling for social media icon hover effect */
+    .social-media a:hover {
+      font-size: 40px;
+    }
+
+    /* Styling for individual social media icons on hover */
+    .social-media a:first-child:hover {
+      color: blue;
+    }
+    .social-media a:nth-child(2):hover {
+      color: rgb(72, 255, 72);
+    }
+    .social-media a:nth-child(3):hover {
+      color: rgb(55, 182, 255);
+    }
+    .social-media a:nth-child(4):hover {
+      color: rgb(0, 68, 255);
+    }
+    .social-media a:nth-child(5):hover {
+      color: rgb(0, 0, 0);
+    }
+    
+    /* Styling for the contact information section */
+    .contact-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .contact-info p {
+      margin: 10px 0;
+    }
+    
+    /* Styling for the return button container */
+    .return-btn-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    /* Styling for the return button */
+    .return-btn-container a {
+      text-decoration: none;
+      color: #4CAF50;
+      transition: color 0.3s;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+    /* Styling for the return button hover effect */
+    .return-btn-container a:hover {
+      color: #45a049;
+    }
+  </style>
+
+  <!-- External script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/768658fe91.js" crossorigin="anonymous"></script>
+  <!-- The link to FontAwesome icons website: https://fontawesome.com/icons -->
+
+</head>
+<body>
+  <div class="container">
+    <h1>Shay Gaming Store</h1>
+    <h2>Contact Us</h2>
+    <form action="contact.php" method="post">
+      <label for="contact">Phone or Email:</label>
+      <input type="text" id="contact" name="contact" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+      
+      <div class="btn-container">
+        <input type="submit" class="btn" value="Send Message">
+      </div>
+    </form>
+    <!-- Links to Social media -->
+    <div class="social-media">
+      <a href="https://cdn.shopify.com/s/files/1/0556/6287/0688/t/4/assets/loading.gif?v=17805835508311907271675305849"
+       title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://media.npr.org/assets/img/2023/05/26/honest-work-meme-cb0f0fb2227fb84b77b3c9a851ac09b095ab74d8-s1100-c50.jpg"
+      title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg"
+      title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://i.pinimg.com/736x/6b/23/70/6b237060aada7018d149e0af69de0671.jpg"
+      title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/ShayMrks" title="github"><i class="fa-brands fa-github"></i></a>
+    </div>
+    
+    <div class="contact-info">
+      <p>Email: <a href="mailto:mail@email.com">mail@email.com</a></p>
+      <p>Phone: <a href="tel:+01234567890">+012 34-4567-890</a></p>
+    </div>
+    
+    <div class="return-btn-container">
+      <a href="html.html">Return to Store</a>
+    </div>
+  </div>
+</body>
+</html>

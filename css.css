@@ -1,0 +1,227 @@
+/* Global Styles */
+
+@media screen and (max-width: 767px) {
+  body {
+    /* Styles for small screens */
+    /* Adjust the width and height of product images */
+    .products .product img {
+      width: 180px;
+      height: 240px;
+    }
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(back.jpg);
+  margin: 0;
+  padding: 0;
+  cursor: url(xurs.png), auto;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: papyrus;
+  color: bisque;
+  font-size: 40px;
+}
+
+.topp {
+  text-align: left;
+  font-family: papyrus;
+  color: bisque;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.topp2 {
+  text-align: right;
+  font-family: papyrus;
+  color: bisque;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.topp:hover {
+  color: rgb(255, 208, 150);
+  font-size: 25px;
+  font-weight: 900;
+  text-shadow: 0px 2px 10px #ccc;
+}
+
+/* Categories */
+.categories ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.categories ul li {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: bisque;
+  padding: 5px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.categories ul li:hover {
+  background-color: #1d1d1d;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products .product {
+  flex: 0 0 calc(25% - 50px);
+  background-color: rgb(255, 236, 212);
+  border-radius: 5%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin: 2px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.products .product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.1);
+  border-radius: 20% 20% 30% 5%;
+  background-color: rgb(255, 219, 176);
+  transform: scale(1.10);
+  animation: glowing-button-85 20s linear infinite;
+  box-shadow: 6px 6px rgb(255, 163, 50), -6px -6px rgb(255, 201, 135);
+}
+
+.products .product img {
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.products .product h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.products .product p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.products .product button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+}
+
+.products .product button:hover {
+  background-color: #fff;
+  color: #4CAF50;
+  box-shadow: 0px 2px 10px #4CAF50;
+}
+
+.products .product button:focus {
+  background-color: rgb(255, 236, 212);
+  color: rgb(255, 236, 212);
+  box-shadow: 0px 2px 10px rgb(255, 236, 212);
+}
+
+/* Cart */
+.cart {
+  margin-top: 40px;
+  background-color: rgb(255, 236, 212);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.cart:hover {
+  background-color: rgb(255, 219, 176);
+  border-radius: 10% 15% 10% 2%;
+  box-shadow: 6px 6px rgb(255, 163, 50), -6px -6px rgb(255, 201, 135);
+  transform: scale(1.02);
+}
+
+.cart h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart table th,
+.cart table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart table th {
+  background-color: bisque;
+}
+
+.cart #cart-total {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.cart #checkout-btn {
+  display: block;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart #checkout-btn:hover {
+  background-color: #45a049;
+}
+
+.cart table th:nth-child(6),
+.cart table td:nth-child(6) {
+  text-align: center;
+}
+
+.cart table td:nth-child(6) button {
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart table td:nth-child(6) button:hover {
+  background-color: #ff0000;
+}
