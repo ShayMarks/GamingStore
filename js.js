@@ -2,134 +2,134 @@
 // C1 Keyboard
 let p1={Pid: 100, Pname: "HP K500F", price: 50, image:"products/C1_Keyboard/HPkey.png", categoryId: 1,
 PNote: "Dynamic RGB lighting and programmable macros for enhanced gaming customization"
-, Prate: '★★★☆☆'};
+, Prate: '3 Starts'};
 let p2={Pid: 200, Pname: "CROSAIR K55 RGB PRO", price: 55, image: "products/C1_Keyboard/k55protop.png", categoryId: 1, 
 PNote: "Dynamic RGB lighting and programmable macros for enhanced gaming customization"
-, Prate: '★★★★☆'};
+, Prate: '4 Starts'};
 let p3={Pid: 300, Pname: "RAZER blackwidow chroma", price: 75, image: "products/C1_Keyboard/razerblackwidowchroma.png", categoryId: 1, 
 PNote: "Premium build quality, customizable RGB lighting, and responsive mechanical switches for optimal gaming performance"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p4={Pid: 400, Pname: "HyperX Alloy Origins Core", price: 80, image: "products/C1_Keyboard/HYPERX.png", categoryId: 1, 
 PNote: "Compact design, durable build quality, and responsive mechanical switches for a reliable and enjoyable gaming experience"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p37={Pid: 3700, Pname: "ZIYOU LANG T6", price: 40, image:"products/C1_Keyboard/ZiyouLangT60Id17.png", categoryId: 1,
 PNote: "high-quality materials, customizable features provide a comfortable"
-, Prate: "★★☆☆☆"};
+, Prate: "2 Starts"};
 let p38={Pid: 3800, Pname: "alienware aw51k", price: 110, image: "products/C1_Keyboard/alienwareAW510K.png", categoryId: 1, 
 PNote: "slim design, responsive low-profile mechanical switches, RGB lighting deliver a premium gaming experience with sleek aesthetic"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p39={Pid: 3900, Pname: "Logitech Pro X", price: 120, image: "products/C1_Keyboard/LogitechProX.png", categoryId: 1, 
 PNote: "durable build, customizable RGB lighting, and advanced mechanical switches"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p40={Pid: 4000, Pname: "Freestyle Edge RGB", price: 215, image: "products/C1_Keyboard/freestyleEdgeRGB.png", categoryId: 1, 
 PNote: "Split design, ergonomic layout and customizable RGB lighting enable personal comfort and efficiency during gaming sessions"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 
 // C2 Mouse
 let p5={Pid: 500, Pname: "HyperX Pulsefire", price: 25, image: "products/C2_Mouse/RE2Pm4N.png", categoryId: 2, 
 PNote: "Reliable and comfortable with responsive buttons and an accurate sensor"
-, Prate: "★★☆☆☆"};
+, Prate: "2 Starts"};
 let p6={Pid: 600, Pname: "AsusROGGladiusIII", price: 50, image: "products/C2_Mouse/AsusROGGladiusIII.png", categoryId: 2, 
 PNote: "Ergonomic design, customizable buttons, and high-precision sensor for accurate and comfortable gaming control, offering a premium gaming experience"
-, Prate: "★★★☆☆"};
+, Prate: "3 Starts"};
 let p7={Pid: 700, Pname: "RAZER BASILISK V3 PRO", price: 75, image: "products/C2_Mouse/basiliskv3.png", categoryId: 2,
 PNote: "Wireless versatility, customizable buttons, and high-precision sensor for enhanced gaming control and convenience."
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p8={Pid: 800, Pname: "Logitech G502 Lightspeed", price: 80, image: "products/C2_Mouse/LOGITECHG502.png", categoryId: 2,
 PNote: "Wireless freedom, adjustable weight system, and high-performance sensor for precise and responsive gaming movements"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 
 // C3 Headphones
 let p9={Pid: 900, Pname: "RAZER kraken X", price: 55, image: "products/C3_Headphones/razerkrakenx.png", categoryId: 3, 
 PNote: "The immersive sound and light design that enhances your gaming experience"
-, Prate: "★★☆☆☆"};
+, Prate: "2 Starts"};
 let p10={Pid: 1000, Pname: "HyperX Cloud II", price: 90, image: "products/C3_Headphones/HyperXCloudII.png", categoryId: 3, 
 PNote: "exceptional comfort, superior sound quality, and virtual 7.1"
-, Prate: "★★★☆☆"};
+, Prate: "3 Starts"};
 let p11={Pid: 1100, Pname: "Steelseries Arctis 7", price: 150, image: "products/C3_Headphones/SteelSeriesArcti7.png", categoryId: 3, 
 PNote: "Wireless comfort, exceptional comfort and high quality audio for an immersive gaming experience"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p12={Pid: 1200, Pname: "Asus ROG THETA 7.1", price: 300, image: "products/C3_Headphones/rogt.png", categoryId: 3, 
 PNote: "Premium build quality, immersive 7.1 surround sound and customizable lighting effects make it a top-notch gaming headset"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 
 // C4 Chairs
 let p13={Pid: 1300, Pname: "HyperX Alloy Origins Core", price: 130, image: "products/C4_Chairs/scorpion.png", categoryId: 4, 
 PNote: "The unique design inspired by the scorpion, the ergonomic features and the components that offer a particularly comfortable and immersive gaming experience"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p14={Pid: 1400, Pname: "DRAGON Gaming Chair Olympus", price: 200, image: "products/C4_Chairs/dragon.png", categoryId: 4, 
 PNote: "ergonomic design, premium build quality, and adjustable features provide optimal comfort and support for long gaming sessions"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p15={Pid: 1500, Pname: "COUGAR RANGER Sofa", price: 250, image: "products/C4_Chairs/COUGARRANGE.png", categoryId: 4, 
 PNote: "Combines luxurious comfort, ergonomic design and built-in features"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p16={Pid: 1600, Pname: "RAZER ISKUR", price: 450, image: "products/C4_Chairs/RAZERISKUR.png", categoryId: 4,
 PNote: "whose ergonomic design, lumbar support system ensure maximum comfort during gaming marathons"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 
 // C5 Consoles
 let p17={Pid: 1700, Pname: "Sony PlayStation 5", price: 500, image: "products/C5_Consoles/sony/ps5+controller.png", categoryId: 5,
 PNote: "825GB, Comes with a controller"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p18={Pid: 1800, Pname: "Controller for PlayStation 5", price: 70, image: "products/C5_Consoles/sony/ps5controller.png", categoryId: 5,
 PNote: "Color : White"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p19={Pid: 1900, Pname: "PlayStation 4 Pro", price: 250, image: "products/C5_Consoles/sony/PS4Pro.png", categoryId: 5,
 PNote: "1TB, Comes with a controller"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p20={Pid: 2000, Pname: "Sony PlayStation 4 Slim", price: 200, image: "products/C5_Consoles/sony/ps4slim+controller.png", categoryId: 5,
 PNote: "1TB, Comes with a controller"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p21={Pid: 2100, Pname: "Controller for PlayStation 4", price: 60, image: "products/C5_Consoles/sony/ps4controller.png", categoryId: 5,
 PNote: "Color : Black"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p22={Pid: 2200, Pname: "Sony PlayStation VR", price: 400, image: "products/C5_Consoles/sony/ps-vr.png", categoryId: 5,
 PNote: "Comes with a Sense controllers (L) And (R)"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p23={Pid: 2300, Pname: "Xbox Series X", price: 500, image: "products/C5_Consoles/xbox/seriesX+Con.png", categoryId: 5,
 PNote: "1TB, Comes with a controller"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p24={Pid: 2400, Pname: "Xbox Series S", price: 250, image: "products/C5_Consoles/xbox/seriesS.png", categoryId: 5,
 PNote: "512GB, Comes with a controller"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p25={Pid: 2500, Pname: "Xbox Series X / S Wireless", price: 60, image: "products/C5_Consoles/xbox/seriesXandSCon.png", categoryId: 5,
 PNote: "Color : Black"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p26={Pid: 2600, Pname: "Xbox One", price: 170, image: "products/C5_Consoles/xbox/XboxOne+Con.png", categoryId: 5,
 PNote: "512GB, Comes with a controller"
-, Prate: "★★★☆☆"};
+, Prate: "3 Starts"};
 let p27={Pid: 2700, Pname: "Nintendo Switch OLED", price: 330, image: "products/C5_Consoles/nintendoSwitchOLED.png", categoryId: 5,
 PNote: "256GB, Comes with Black Joy-Con"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p28={Pid: 2800, Pname: "Meta Quest 2", price: 430, image: "products/C5_Consoles/oculusQuest2.png", categoryId: 5,
 PNote: "Meta Quest 2 is our most advanced all-in-one VR system yet"
-, Prate: "★★★★☆"}
+, Prate: "4 Starts"}
 
 // C6 Games
 let p29={Pid: 2900, Pname: "Marvel's Spider-Man: Miles Morales", price: 40, image: "products/C6_games/SpiderMan.png", categoryId: 6,
 PNote: "Action-adventure | PEGI 16"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p30={Pid: 3000, Pname: "Battlefield 2042", price: 50, image: "products/C6_games/Battlefield2042-50.png", categoryId: 6,
 PNote: "FP shooting | PEGI 16"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p31={Pid: 3100, Pname: "Mortal Kombat 11", price: 55, image: "products/C6_games/MortalKombat11-55.png", categoryId: 6,
 PNote: "Fighting | PEGI 12"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 let p32={Pid: 3200, Pname: "The Crew 2 ", price: 60, image: "products/C6_games/TheCrew2-60.png", categoryId: 6,
 PNote: "Open-World Racing | PEGI 12"
-, Prate: "★★★☆☆"};
+, Prate: "3 Starts"};
 let p33={Pid: 3300, Pname: "god of war: ragnarok", price: 70, image: "products/C6_games/GodofWarRagnarok-70.png", categoryId: 6,
 PNote: "Action-adventure | PEGI 18"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p34={Pid: 3400, Pname: "FAR CRY 6", price: 70, image: "products/C6_games/FARCRY6-70.png", categoryId: 6,
 PNote: "Action-adventure | PEGI 18"
-, Prate: "☆☆☆☆☆"};
+, Prate: "2"};
 let p35={Pid: 3500, Pname: "FIFA 23", price: 80, image: "products/C6_games/FIFA23-80.png", categoryId: 6,
 PNote: "football game | PEGI 3"
-, Prate: "★★★★★"};
+, Prate: "5 Starts"};
 let p36={Pid: 3600, Pname: "Watch Dogs: Legion", price: 80, image: "products/C6_games/WatchDogs_Legion-80.png", categoryId: 6,
 PNote: "Action-adventure | PEGI 18"
-, Prate: "★★★★☆"};
+, Prate: "4 Starts"};
 
 
 // array of products
