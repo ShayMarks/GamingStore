@@ -1,15 +1,49 @@
-Welcome to the first project I uploaded. The project was done as part of my Practical engineer studies where I built a dynamic and feature-rich online store. The site combines a combination of HTML, CSS and JavaScript to create a visually appealing and interactive user interface. The store is called "Shay Gaming Store".
+# Welcome to Shay Gaming Store
 
-The main home page of the site serves as a gateway to the various sections and features. The HTML structure defines the layout and organizes the content, while CSS is used to design elements such as fonts, colors, backgrounds, sizes and spacing. JavaScript enhances interactivity by adding dynamic effects, products, categories, adding and removing products in the cart, animations and event handling.
+This project is part of my Practical Engineer studies, where I created a dynamic and feature-rich online store called "Shay Gaming Store."
 
-The navigation menu, implemented using HTML and CSS, allows smooth navigation throughout the site. It allows users to access different sections such as the store, the registration and login page and the contact page. The menu items are created as HTML links, and CSS is used to style them.
+## Overview
 
-The stores section of the site presents a diverse range of gaming products. The product lists are generated dynamically using HTML and JavaScript. Each product is presented with a picture, description and price information. Users can filter and search for specific products using JavaScript functions that handle user input and update the product display accordingly, depending on the different categories.
+- The project combines HTML, CSS, and JavaScript to build an interactive online store.
+- The main home page serves as a gateway to various sections and features.
+- HTML defines the layout and content structure.
+- CSS is used for styling elements like fonts, colors, and spacing.
+- JavaScript adds dynamic effects, product management, cart functionality, animations, and event handling.
 
-The registration and login pages provide a personal experience for users. The HTML forms capture user input for registration/login that the user fills out the forms, the contact page includes an HTML form that allows users to send messages to the store On the contact page you can find social media integration achieved through HTML links to a variety of platforms such as Facebook, WhatsApp, Twitter, LinkedIn and GitHub. These links can be connected to the store's social media profiles. The FontAwesome library was used to integrate the social media icons on the site.
+## Features
 
-The main site is designed to be responsive, to fit different sizes and devices. This is achieved through the use of CSS media queries, which adjust the layout and style according to the device's screen dimensions. Responsive design ensures that the website is accessible and visually appealing on a variety of devices, including desktop computers, laptops, tablets and smartphones.
+- Navigation menu for smooth site navigation.
+- Diverse gaming product range in the store section.
+- Dynamic product lists generated with HTML and JavaScript.
+- User-friendly registration and login pages.
+- Contact page with a message form.
+- Social media integration with links to platforms like Facebook, WhatsApp, Twitter, LinkedIn, and GitHub.
+- Responsive design for various devices using CSS media queries.
+- Organized and modular code for maintenance and scalability.
+- Images categorized into folders for products.
+- Code files (HTML, CSS, JavaScript) separated for better management.
+- Code comments for code explanation and readability.
 
-Behind the scenes, the site's code is organized and modular, following best practices for maintenance and scalability.The images of products are arranged in different folders according to the categories. HTML, CSS, and JavaScript code are usually separated into separate files, allowing for easier management and development. Code comments are used to provide explanations and improve code readability.
+## Usage
 
-Overall, Shay Gaming Store is a well designed and functional website that combines HTML, CSS and JavaScript.
+To access the different sections and features, simply navigate through the site using the menu or search for specific products in the store.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- FontAwesome library for social media icons
+
+## Contributors
+
+- [Shay Mrks]
+
+
+## Acknowledgments
+
+Special thanks to [Mention any external libraries, frameworks, or resources you used in the project.]
+
+---
+
+Feel free to customize this README with your specific project details and contributors. Good luck with your Shay Gaming Store project!
