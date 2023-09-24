@@ -39,11 +39,6 @@ To access the different sections and features, simply navigate through the site 
 
 - [Shay Mrks]
 
-
-## Acknowledgments
-
-Special thanks to [Mention any external libraries, frameworks, or resources you used in the project.]
-
 ---
 
 Feel free to customize this README with your specific project details and contributors. Good luck with your Shay Gaming Store project!
