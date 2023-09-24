@@ -38,7 +38,3 @@ To access the different sections and features, simply navigate through the site 
 ## Contributors
 
 - [Shay Mrks]
-
----
-
-Feel free to customize this README with your specific project details and contributors. Good luck with your Shay Gaming Store project!
